@@ -21,8 +21,8 @@
       </form>
     </header>
 
-    <ul class="list-group todos mx-auto text-light">
-      <li class="list-group-item d-flex justify-content-between align-items-center">
+    <ul class="list-group todos mx-auto text-light" id="elem">
+      <!--<li class="list-group-item d-flex justify-content-between align-items-center">
         <span>VSLV Launch</span>
         <i class="far fa-trash-alt delete"></i>
       </li>
@@ -33,15 +33,25 @@
       <li class="list-group-item d-flex justify-content-between align-items-center">
         <span>3d printing</span>
         <i class="far fa-trash-alt delete"></i>
-      </li>
+      </li>-->
     </ul>
 
     <form class="add text-center my-4">
       <label class="text-light">Add a new todo...</label>
-      <input class="form-control m-auto" type="text" name="add" />
+      <input class="form-control m-auto" type="text" name="add" id="add" />
     </form>
 
   </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+ <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
   
 
   <script src="app.js"></script>
