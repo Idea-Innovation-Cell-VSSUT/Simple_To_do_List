@@ -1,5 +1,5 @@
 # simple_to-do_list
-A simple to-do list indigenously made by the clu members of IIC
+A simple to-do list indigenously made by the club members of IIC
 By 
 <br><a href="https://github.com/prasenjitghose36">Prasenjit Ghose</a><br>
 &amp;<br>
